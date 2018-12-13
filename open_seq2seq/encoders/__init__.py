@@ -9,6 +9,7 @@ from .rnn_encoders import UnidirectionalRNNEncoderWithEmbedding, \
                           GNMTLikeEncoderWithEmbedding,\
                           GNMTLikeEncoderWithEmbedding_cuDNN
 from .transformer_encoder import TransformerEncoder
+from .transformer_dencoder import TransformerDENcoder
 from .ds2_encoder import DeepSpeech2Encoder
 from .resnet_encoder import ResNetEncoder
 from .tacotron2_encoder import Tacotron2Encoder
